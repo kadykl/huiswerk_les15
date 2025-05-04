@@ -1,0 +1,108 @@
+body {
+    background-color: beige;
+    color: darkolivegreen;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+header {
+    color: green;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: darkorange;
+    margin: 20px;
+}
+
+p {
+    color: burlywood;
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+}
+
+ul {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    margin: 0px 20px;
+    text-align: center;
+    color: white;
+    background-color: green;
+
+}
+
+li:hover {
+    background-color: lightgreen;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px 5px;
+    background-color: olive;
+    color: white;
+}
+
+form {
+    color: burlywood;
+    margin: auto;
+    width: 50%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+    display: block;
+    margin: 5px auto;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px gray;
+}
+
+textarea {
+    height: 250px;
+    background-color: azure;
+    padding: 5px;
+}
+
+button:active {
+    background-color: lightseagreen;
+    color: darkgreen;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 5px green;
+
+}
+
+footer {
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    background-color: green;
+    color: beige;
+}
